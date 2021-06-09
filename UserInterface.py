@@ -7,7 +7,7 @@ color = "#cfcaca"
 class interfejs:
     """Klasa bazowa dla interfejsu użytkownika"""
     def wyswietlCzas(tekst, przycisk):
-        """Funkcja aktualizuje czas po kliknięciu przycisku"""
+        """Funkcja wyświetla zaktualizowany czas po kliknięciu przycisku"""
         przycisk.config(text=tekst)
 
     def wyswietlBudget(tekst, przycisk):
